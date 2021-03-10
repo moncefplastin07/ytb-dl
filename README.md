@@ -1,6 +1,6 @@
 ﻿### Install
  
- only for windows
+ only for windows .. from powershell 
 
 ```shell
 iwr https://raw.githubusercontent.com/moncefplastin07/ytb-dl/main/install.ps1 -useb | iex
