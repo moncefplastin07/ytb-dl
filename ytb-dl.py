@@ -46,5 +46,6 @@ elif mediaType.lower() == 'audio':
     bestMediaQuality = video.getbestaudio()
 else:
     print('error this meida type note supported')
+    exit()
 print("well be Download to {0}".format(getcwd()))
 bestMediaQuality.download()
