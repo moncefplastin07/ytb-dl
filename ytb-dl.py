@@ -47,5 +47,6 @@ elif mediaType.lower() == 'audio':
 else:
     print('error this meida type note supported')
     exit()
-print("well be Download to {0}".format(getcwd()))
+print(f"File Name: {video.title} ({format(bestMediaQuality.get_filesize() / 1024 / 1024, '0.2f')} MB) ")
+print(f"Download path: {path.join(getcwd(),video.title)}")
 bestMediaQuality.download()
